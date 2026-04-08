@@ -79,16 +79,23 @@ Lo use tal cual ya que ya estaba personalizado por las preguntas
 
 ### 3 - listas.py
 
-**Herramienta**: 
+**Herramienta**: GitHub Copilot
 
-**Prompt usado**:
+**Prompt usado**: 
+Quiero que revises todo el archivo y que por cada funcion:
+1_ me preguntes si no entendiste el retorno de la funcion
+2_ crees un script para resolver la funcion
+3_ enumeres casos bordes que deberia testear
+4_ vayas haciendo pausas entre cada funcion y me preeguntes para continuar con la siguiente
+5_ dame dos opciones de script y dime porque tendria que elegir la que recomiendas
+
 > 
 
-**Resultado obtenido**:
+**Resultado obtenido**: Tal cual lo pedi me dio un par de opciones de script enumerando los casos borde que revisar y diciendome que habia entendido del retorno
 
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Tal cual
 
 ---
 
