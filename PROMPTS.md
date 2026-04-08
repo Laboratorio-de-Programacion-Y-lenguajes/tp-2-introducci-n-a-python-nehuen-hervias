@@ -124,14 +124,19 @@ tal cual
 
 **Herramienta**: GitHub Copilot
 
-**Prompt usado**:
-> 
+**Prompt usado**: Utilice un prompt para cada funcion, remarcando las lineas de codigo de cada una para que la ia sepa que me estoy refiriendo a ese pedazo de codigo en particular, no cambiaron demasiado los prompts asi que voy a dejar el primero que utilicé:
+
+
+Cual sería la forma mas eficiente de crear la lista?
+Que pasaría si el argumento es 0?
+Que debería devolver en caso de error?
+Mostrame una implementacion de esta funcion teniendo en cuenta las preguntas anteriores.
 
 **Resultado obtenido**:
-
+La ia me respondía las preguntas y teniendo en cuenta los casos bordes que mencioné, generaba un script que manejara esas exepciones
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Solo modifique un script porque la ia habia pensado que los negativos eran un caso borde y a mi parecer no lo eran así que solamente reemplace una expresión lógica para que aceptara los negativos.
 
 ---
 
