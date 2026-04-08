@@ -13,7 +13,7 @@ def crear_saludo(nombre: str) -> str:
     """
     
     return f"Hola, {nombre}!"
-    pass
+    
 
 
 def suma_enteros(a: int, b: int) -> int:
@@ -22,7 +22,7 @@ def suma_enteros(a: int, b: int) -> int:
     """
 
     return a + b
-    pass
+    
 
 
 def es_mayor_de_edad(edad: int) -> bool:
@@ -31,7 +31,7 @@ def es_mayor_de_edad(edad: int) -> bool:
     """
 
     return edad >= 18
-    pass
+    
 
 
 def tipo_de_dato(valor) -> str:
@@ -42,7 +42,7 @@ def tipo_de_dato(valor) -> str:
     """
    
     return type(valor).__name__
-    pass
+    
 
 
 def convertir_a_float(valor: str) -> float:
@@ -52,4 +52,4 @@ def convertir_a_float(valor: str) -> float:
     """
    
     return float(valor)
-    pass
+    

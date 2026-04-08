@@ -10,7 +10,7 @@ def contar_hasta(n: int) -> list:
     if n < 0:
         raise ValueError("n debe ser un entero no negativo")
     return list(range(1, n + 1))
-    pass
+    
 
 
 def tabla_multiplicar(n: int) -> list:
@@ -21,7 +21,7 @@ def tabla_multiplicar(n: int) -> list:
     if not isinstance(n, int) or n == 0:
         raise ValueError("n debe ser un entero distinto de cero")
     return [n * i for i in range(1, 11)]
-    pass
+    
 
 
 def suma_digitos(n: int) -> int:
@@ -36,7 +36,7 @@ def suma_digitos(n: int) -> int:
         suma += n % 10
         n //= 10
     return suma
-    pass
+    
 
 
 def es_primo(n: int) -> bool:
@@ -57,7 +57,7 @@ def es_primo(n: int) -> bool:
             return False
         i += 2
     return True
-    pass
+    
 
 
 def fibonacci(n: int) -> list:
@@ -74,4 +74,4 @@ def fibonacci(n: int) -> list:
         resultado.append(a)
         a, b = b, a + b
     return resultado
-    pass
+    

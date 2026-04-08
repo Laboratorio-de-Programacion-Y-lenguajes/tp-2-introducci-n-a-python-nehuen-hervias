@@ -21,7 +21,7 @@ def contar_palabras(texto: str) -> dict:
             frecuencia[palabra] = 1
 
     return frecuencia
-pass 
+ 
 
 
 def invertir_diccionario(d: dict) -> dict:
@@ -30,7 +30,7 @@ def invertir_diccionario(d: dict) -> dict:
     Ejemplo: invertir_diccionario({"a": 1}) -> {1: "a"}
     """
     return {valor: clave for clave, valor in d.items()}
-    pass
+    
 
 
 def merge_diccionarios(d1: dict, d2: dict) -> dict:
@@ -40,7 +40,7 @@ def merge_diccionarios(d1: dict, d2: dict) -> dict:
     resultado = d1.copy()
     resultado.update(d2)
     return resultado
-    pass
+    
 
 
 def filtrar_por_valor(d: dict, minimo: int) -> dict:
@@ -53,4 +53,4 @@ def filtrar_por_valor(d: dict, minimo: int) -> dict:
         if valor >= minimo:
             resultado[clave] = valor
     return resultado
-    pass
+    

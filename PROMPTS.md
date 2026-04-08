@@ -163,13 +163,17 @@ tal cual
 **Herramienta**: GitHub Copilot
 
 **Prompt usado**:
+Revisa cada una de las funciones de este archivo y por cada funcion:
+ mostrame tres enfoques distintos y comparalos 
+ Elegí el más adecuado para principiantes + tests con pytest, justificá, y escribí el código final.
+ al finalizar el analisis de una funcion esperá mi confirmacion para pasar a la siguiente
 > 
 
-**Resultado obtenido**:
+**Resultado obtenido**: Con este prompt la herramienta fue analizando funcion por funcion dando tres enfoques, explicandolos y recomendando uno por su claridad para principiantes, ademas de generar test para correr y verificar el resultado de las funciones.
 
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Tal cual
 
 ---
 
@@ -178,8 +182,11 @@ tal cual
 Respondé brevemente (3-5 oraciones):
 
 - ¿Qué aprendiste sobre cómo formular buenos prompts?
+
 Depende mucho la forma en que lo preguntes el resultado que te dara la ia, es muy util hacerla reflexionar y pedirle pros y contras o que cuestione sus propias decisiones.
+
 - ¿En qué casos la IA fue útil y en cuáles no?
 En general fue util en todos los casos
+
 - ¿Qué harías diferente la próxima vez?
-probaria con juntar todas las preguntas que le hice
+Probaria con hacer una mezcla entre patrones de prompt y funcionalidades de la herramienta integrada, diciendole que a la ves que me genera codigo y los justifica, cree ejemplos y test para verificar que el resultado sea el requerido. 
