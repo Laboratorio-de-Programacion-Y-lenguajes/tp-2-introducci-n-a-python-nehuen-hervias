@@ -131,16 +131,19 @@ Tal cual
 
 ### 6 - funciones.py
 
-**Herramienta**: 
+**Herramienta**: GitHub Copilot
 
-**Prompt usado**:
+**Prompt usado**:Quiero que revises todas las funciones de este archivo y hagas lo siguiente por cada funcion:
+1_ plantear 3 enfoques distintos para resolver la funcion
+2_ enumerar pros y contras y que casos NO abarca cada enfoque
+3_ espera que te indique el enfoque elegido y armame el script con el enfoque mencionado
 > 
 
-**Resultado obtenido**:
+**Resultado obtenido**: me paso 3 enfoques por cada funcion mostrando pros y contras y los casos que no abarcaban y yo elegi los enfoques para la generacion del script
 
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+tal cual
 
 ---
 
@@ -164,5 +167,8 @@ Tal cual
 Respondé brevemente (3-5 oraciones):
 
 - ¿Qué aprendiste sobre cómo formular buenos prompts?
+Depende mucho la forma en que lo preguntes el resultado que te dara la ia, es muy util hacerla reflexionar y pedirle pros y contras o que cuestione sus propias decisiones.
 - ¿En qué casos la IA fue útil y en cuáles no?
+En general fue util en todos los casos
 - ¿Qué harías diferente la próxima vez?
+probaria con juntar todas las preguntas que le hice
