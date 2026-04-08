@@ -101,22 +101,28 @@ Tal cual
 
 ### 4 - diccionarios.py
 
-**Herramienta**: 
+**Herramienta**: GitHub Copilot
 
-**Prompt usado**:
+**Prompt usado**: 
+Aca quise probar la funcion de remarcar lineas de codigo para que la ia sepa a que te estas refiriendo sin pasarle el codigo explicitamente:
+
+Quiero que generes dos posibles scripts para implementar un diccionario con esta regla y luego generes 8 ejemplos de textos que tengan palabras repetidas para poner a prueba el script.
+Tendras que respaldar tu eleccion de script y mostrar como sería la devolucion con los ejemplos que generaste.
+
+Utilice este prompt para la primera función y luego reutilicé el mismo prompt diciendole que utilizara el mismo procedimiento pero cambiando los ejemplos dependiendo de la función.
 > 
 
-**Resultado obtenido**:
+**Resultado obtenido**: Ademas de generarme scripts posibles y mostar sus puntos fuertes, me generó ejemplo que utilice para comprobar si realmente tenian el resultado deseado.
 
 
 **¿Lo usaste tal cual o lo modificaste?**
 
-
+tal cual
 ---
 
 ### 5 - loops.py
 
-**Herramienta**: 
+**Herramienta**: GitHub Copilot
 
 **Prompt usado**:
 > 
@@ -149,7 +155,7 @@ tal cual
 
 ### 7 - operaciones.py
 
-**Herramienta**: 
+**Herramienta**: GitHub Copilot
 
 **Prompt usado**:
 > 
