@@ -31,17 +31,33 @@ Explicá qué cambios hiciste y por qué (o por qué no cambiaste nada).
 
 ### 1 - variables.py
 
-**Herramienta**: 
+**Herramienta**: GitHub Copilot
 
-**Prompt usado**:
-> 
+**Prompt usado**: Use un prompt por cada funcion para ir practicando el uso de prompts, aqui los enlisto:
+----------------------------------------------------------------------------
+Actuá como tutor de Python 3.13. Dame una receta paso a paso para:
+
+que una funcion crear_saludo que tiene como parametro un nombre str, devuelva un str que diga Hola[NOMBRE]
+---------------------------------------------------------------------------
+ahora necesito que hagas un script que se encargue de sumar dos enteros pasados como parametros en una funcion, dame tres ejemplos de distintas formas de hacerlo y dime cual es la mas adecuada
+-------------------------------------------------------------------------
+ahora quiero que generes el script de una funcion que:
+verifica que un parametro edad de tipo int sea mayor o igual a 18
+que devuelva true si se cumple la condicion
+que devuelva false en caso contrario
+---------------------------------------------------------------------------
+ahora quiero el script de una funcion que, al pasarle un parametro llamado valor:
+devuelva un string con el tipo de dato del valor recibido
+----------------------------------------------------------------------------
+ahora necesito un script de una funcion que tiene como parametro un valor de tipo str que debe:
+devolver el string numerico como un float
+-----------------------------------------------------------------------------
 
 **Resultado obtenido**:
-
+Por como hice el primer prompt, la ia me genero siempre tres formas de codigo distintas enumerando sus ventajas y desventajas y donde seria mas practico utilizarlas
 
 **¿Lo usaste tal cual o lo modificaste?**
-
-
+Lo use tal cual porque me parecio correcto el razonamiento que me dio para elegir la opcion simple
 ---
 
 ### 2 - condicionales.py
