@@ -7,7 +7,12 @@ def clasificar_numero(n: int) -> str:
     """
     Retorna "positivo", "negativo" o "cero" según corresponda.
     """
-    # TU CÓDIGO AQUÍ
+    if n > 0:
+        return "positivo"
+    elif n == 0:
+        return "cero"
+    else:
+        return "negativo"
     pass
 
 
@@ -15,7 +20,7 @@ def mayor_de_tres(a: int, b: int, c: int) -> int:
     """
     Retorna el mayor de tres números.
     """
-    # TU CÓDIGO AQUÍ
+    return max(a, b, c)
     pass
 
 
@@ -27,7 +32,14 @@ def clasificar_nota(nota: float) -> str:
     - nota >= 6: "Aprobado"
     - nota < 6:  "Desaprobado"
     """
-    # TU CÓDIGO AQUÍ
+    if nota >= 9:
+        return "Sobresaliente"
+    elif nota >= 7:
+        return "Bueno"
+    elif nota >= 6:
+        return "Aprobado"
+    else:
+        return "Desaprobado"
     pass
 
 
@@ -37,5 +49,5 @@ def es_bisiesto(anio: int) -> bool:
     Un año es bisiesto si es divisible por 4,
     excepto los divisibles por 100, salvo que también lo sean por 400.
     """
-    # TU CÓDIGO AQUÍ
+    return (anio % 400 == 0) or (anio % 4 == 0 and anio % 100 != 0)
     pass

@@ -62,16 +62,18 @@ Lo use tal cual porque me parecio correcto el razonamiento que me dio para elegi
 
 ### 2 - condicionales.py
 
-**Herramienta**: 
+**Herramienta**: GitHub Copilot
 
-**Prompt usado**:
+**Prompt usado**: Esta vez probe en utilizar un prompt mas largo pero que utilice todo el archivo como referencia en vez de pasarle por el prompt cada funcion, el prompt en cuestion es este:
+Quiero completar todas las funciones que estan en este archivo con las condiciones que estan escritas entre comillas en cada funcion.
+Quiero que me vayas haciendo 3 preguntas por cada funcion que puedan servir para generar el codigo deseado y al terminar las tres preguntas me des el script de esa funcion antes de comenzar con las preguntas de la siguiente funcion
 > 
 
-**Resultado obtenido**:
+**Resultado obtenido**: La ia me fue dando 3 preguntas de cada funcion y en base a mi respuestas creo el codigo solicitado
 
 
 **¿Lo usaste tal cual o lo modificaste?**
-
+Lo use tal cual ya que ya estaba personalizado por las preguntas
 
 ---
 
